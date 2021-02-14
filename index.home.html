@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="formulario.css" media="screen"> 
+    <link rel="stylesheet" href="flexbox.css" />
+</head>
+<body>
+    <!--Saudação--> 
+    <script>
+        alert ('Olá, seja bem vindo. Não se esqueça de prencher todas as informações com aterisco (*)') 
+    </script>
+    </script>
+    </div>
+    <!--titulo-->
+    <div>
+        <h1 class="titulo">Formulário de Cadastro</h1><br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome *</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label dor="sobrenome"><storng>Sobrenome *</storng></label>
+                <input type="text" name="sobrenome" id="sobrenome" required> 
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label dor="idade"><storng>Idade *</storng></label>
+            <input type="number" name="idade" id="idade" required> 
+        </div>
+        <div for="email">
+            <label class="campo"><strong>Email *</strong></label><br>
+            <input type="email" name="email" id="email" required>
+        </div><br>
+        <!--Preenchimento de campo Checkbox-->
+        <div class="campo">
+            <label></label><strong>Trabalha em quais dias da semana?</strong></label><br><br>
+            <label>
+                <input type="checkbox" name="form" value="segunda" checked> Segunda-Feira
+            </label><br>
+            <label>
+                <input type="checkbox" name="form" value="terça"> Terça-Feira
+            </label>
+            <label><br>
+                <input type="checkbox" name="form" value="quarta"> Quarta-Feira
+            </label>
+            <label><br>
+                <input type="checkbox" name="form" value="quinta"> Quinta-Feira
+            </label>
+            <label><br>
+                <input type="checkbox" name="form" value="sexta"> Sexta-Feira
+            </label>
+            <label><br>
+                <input type="checkbox" name="form" value="sabado"> Sábado
+            </label>
+            <label><br>
+                <input type="checkbox" name="form" value="dormingo"> Dormingo
+            </label>
+        </div>
+        <div>
+            <!--Dropdown escolher uma das opções-->
+            <label></labe><strong>Status</strong></label><br><br>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Solteiro (a)</option>
+                <option>Casado (a)</option>
+                <option>Viúvo (a)</option>
+                <option>Separado (a)</option>
+            </select><br><br>
+        </div>
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione seus <i>Hobbies</i> preferidos</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="html">
+                <label for="tecnologia1">Balada </label>
+                <input type="checkbox" id="tenologia2" name="tecnologia2" value="css">
+                <label for="tecnolologia2">Ler</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="javascript">
+                <label for="tecnologia3">Video-Game</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="php">
+                <label for="tecnologia4">Pescar</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="phyton">
+                <label for="tecnologia5">Cinema</label>
+            </div>
+        </fieldset>
+        <div><br>
+            <!--Abertura textarea para preencimento livre-->
+            <labe calass="textend">Deseja nos contar mais sobre você?</label><br><br>
+            <textarea rox="6" style="width: 26em;" id="experiencia" name="experiencia"></textarea>
+        </div><br>
+        <label><strong>Avalie nosso formulário com até 5 ESTRELAS</strong></label><br><br>
+        <div class="vote">
+            <label>
+                <input type="radio" id="cm_star" name="fb" value="1" /> 1
+                <i class="fa"></i>
+            </label><br>
+            <label>
+                <input type="radio" id="cm_star" name="fb" value="2" /> 2
+                <i class="fa"></i>
+            </label><br>
+            <label>
+                <input type="radio" id="cm_star" name="fb" value="3" /> 3
+                <i class="fa"></i>
+            </label><br>
+            <label>
+                <input type="radio" id="cm_star" name="fb" value="4" /> 4
+                <i class="fa"></i>
+            </label><br>
+            <label>
+                <input type="radio" id="cm_star" name="fb" value="5" /> 5
+                <i class="fa"></i><br>
+            </label><br><br>
+            <!--button conclusão-->
+            <button class="concluido" type="submit">Concluído</button function>
+                <!--Help buttom-->
+                    <a href="#" id="help"><storng>Ajuda?</storng></a>
+        </form>
+    </form>
+    <div class="objeto" style="text-align:center";><br>
+        <h4 class="home">André Soares</h4>
+    </div>
+</body> 
+</html>

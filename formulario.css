@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+#subtitulo {
+    font-family: sans-serif;
+    color: #050505;
+    margin-left:7%;
+}
+fieldset {
+    border:0;
+}
+body {
+    margin:20px;
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#f7f7f7;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, textarea {
+    border-radius: 5px;
+}
+.campo {
+    margin-bottom: 1em;
+}
+.campo label {
+    margin-bottom: 0.2em;
+    color:#ffffff;
+    display:block
+}
+fieldset .campo .grupo {
+    float: left;
+    margin-right: 1em;
+}
+.campo input [type="text"], .campo input [type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid#ffffff;
+    box-shadow:  2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}  
+.campo select option {
+    padding-right:1em;
+}
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #e0e0f8
+}
+.button {
+    font-size: 1.2em;
+    background:#0099cc;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em, 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: (-50%, -50%);
+}
+.button:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+.button, select {
+    cursor: pointer;
+}
+#check {
+    display: inline-block;
+}
+form {
+    width:30%;
+    height:170%;
+    right: 30%;
+    position:absolute;
+    padding:50px 70px 80px 20px;
+    background:#0099cc;
+}
+.titulo {
+    color: #0099cc;
+    justify-content: center;
+}
+#help {
+    position:relative;
+    right:-300px;
+    top:2px;
+    color: #ffffff;
+}
+.concluido {
+    border-color:rgba(182, 192, 202, 0.795);
+}
+.objeto {
+    justify-content: center;
+    background-color:#0099cc;
+    width:50px;
+    height:50px;
+    position:relative;
+    right:408px;
+    top:-1175px;
+    padding:20px;
+    transition:all 1s linear;
+    border-radius:5px;
+}
+.objeto:hover,.home {
+    height:60px;
+}
+.home {
+    padding:-60px;
+    right:auto;
+}
